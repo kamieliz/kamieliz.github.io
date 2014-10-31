@@ -1,0 +1,27 @@
+.nav a {
+    text-transform: uppercase;
+    color: #5a5a5a;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 14px 11px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.about-me container {
+    top: 100px;
+    
+}
+
+.about-me h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about-me h2 {
+    font-family:'Raleway', sans-serif;
+    font-color: #6d6d6d;
+}
