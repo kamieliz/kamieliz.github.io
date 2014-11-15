@@ -1,6 +1,9 @@
+body {
+    background-color: #f8f1e4;
+}
 .nav a {
     text-transform: uppercase;
-    color: #5a5a5a;
+    color: #333333;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 11px;
@@ -15,7 +18,7 @@
 .header h1 {
     font-family: 'Lobster', Georgia, Times, serif;
     font-size: 50px;
-    color: #5a5a5a;
+    color: #3c1f3c;
     text-align: center;
 }
 .header p {
@@ -24,6 +27,9 @@
     font-weight: bold;
     font-size: 12px;
     text-align: center;
-
+    color: #333333;
 }
+
+
+
 
