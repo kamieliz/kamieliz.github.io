@@ -1,7 +1,10 @@
+body {
+    background-color: #f8f1e4;
+}
 .nav a {
     text-transform: uppercase;
-    color: #5a5a5a;
-    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 11px;
     padding: 14px 11px;
@@ -11,17 +14,18 @@
     display: inline;
 }
 
-.about-me container {
-    top: 100px;
-    
-}
 
-.about-me h2 {
+.header h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 50px;
+    color: #3c1f3c;
+    text-align: center;
+}
+.header p {
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-}
-
-.about-me h2 {
-    font-family:'Raleway', sans-serif;
-    font-color: #6d6d6d;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
 }
