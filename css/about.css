@@ -49,11 +49,12 @@ body {
 }
 
 .feature p {
-    text-transform: uppercase;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
     color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
