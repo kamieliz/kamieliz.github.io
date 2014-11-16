@@ -45,7 +45,7 @@ body {
     font-family: 'Lobster', Georgia, Times, serif;
     font-size: 35px;
     color: #3c1f3c;
-    text-align: left;
+    text-align: center;
 }
 
 .feature p {
@@ -53,8 +53,13 @@ body {
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 12px;
-    text-align: left;
+    text-align: center;
     color: #333333;
+}
+
+.feature img {
+    padding: 20 20 0 20;
+    background-color: #fdfcf8;
 }
 
 /* COLUMN SETUP */
