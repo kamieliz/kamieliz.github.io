@@ -36,6 +36,9 @@ body {
 	box-shadow: inset 0 -1px 0 0 #e5e5e5, inset 0 1px 0 0 #e5e5e5, 0 1px 0 0 #e5e5e5, 0 -1px 0 0 #e5e5e5;
 	margin-bottom: 1px;
     background-color: #f8f1e4;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
 }
 
 .feature h2 {
@@ -52,4 +55,58 @@ body {
     font-size: 12px;
     text-align: center;
     color: #333333;
+}
+
+/* COLUMN SETUP */
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child {
+    margin-left: 0;
+}
+
+/* GROUPING */
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1;
+}
+
+/* GRID OF THREE */
+.span_3_of_3 {
+    width: 100%;
+}
+.span_2_of_3 {
+    width: 66.1%;
+}
+.span_1_of_3 {
+    width: 32.2%;
+}
+
+/* GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width:480px) {
+    .col {
+        margin: 1% 0 1% 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
 }
