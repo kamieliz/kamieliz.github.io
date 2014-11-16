@@ -18,7 +18,7 @@ body {
 /* HEADER */
 .header h1 {
     font-family: 'Lobster', Georgia, Times, serif;
-    font-size: 25px;
+    font-size: 50px;
     color: #3c1f3c;
     text-align: center;
 }
@@ -40,7 +40,7 @@ body {
 
 .section h3 {
     font-family: 'Lobster', Georgia, Times, serif;
-    font-size: 50px;
+    font-size: 25px;
     color: #3c1f3c;
     text-align: center;
 }
