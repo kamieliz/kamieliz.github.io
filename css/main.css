@@ -1,5 +1,5 @@
 body {
-    background-color: #fdfcf8;
+    background-color: #f8f1e4;
 }
 /* NAVIGATION */
 .nav a {
@@ -36,6 +36,22 @@ body {
     clear: both;
     padding: 0px;
     margin: 0px;
+}
+
+.section h3 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 50px;
+    color: #3c1f3c;
+    text-align: center;
+}
+
+.section p {
+    text-transform: uppercase;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
 }
 
 /* COLUMN SETUP */
