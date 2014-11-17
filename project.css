@@ -1,0 +1,33 @@
+body {
+    background-color: #f8f1e4;
+}
+/* NAVIGATION */
+.nav a {
+    text-transform: uppercase;
+    color: #333333;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 20px 11px;
+}
+
+.nav li {
+    display: inline;
+}
+
+/* HEADER */
+.header h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 50px;
+    color: #3c1f3c;
+    text-align: center;
+}
+.header p {
+    text-transform: uppercase;
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 20px;
+}
