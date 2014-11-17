@@ -40,7 +40,7 @@ body {
 	margin-bottom: 1px;
     background-color: #f8f1e4;
     max-width: 730px;
-    align-items: center;
+    align-content: center;
   }
 }
 .jumbotron-narrow > hr {
